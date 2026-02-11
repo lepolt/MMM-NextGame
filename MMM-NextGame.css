@@ -1,0 +1,36 @@
+.game-info {
+    font-size: 22px;
+    /* text-align: center; */
+    color: #fff;
+    /* display: flex; */
+}
+
+.game-info img {
+    height: 50px;
+}
+
+.game-info .game-title-time-wrapper {
+    display: inline-block;
+    text-align: left;
+    margin: 0 5px;
+}
+
+.game-info .game-title-time-wrapper .game-title-row img.game-sport-image {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.game-info .game-title-time-wrapper .game-title-row {
+    display: flex; 
+    align-items: center;
+}
+
+.game-info .game-title-time-wrapper .game-time {
+    display: block;
+    font-size: 18px;
+}
+
+.game-info .game-title-time-wrapper .game-score {
+    display: block;
+    font-size: 18px;
+}
