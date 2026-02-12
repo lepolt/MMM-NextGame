@@ -120,7 +120,7 @@ Module.register("MMM-NextGame", {
             var home = this.nextGame.competitors.find(function(c) { return c.homeAway === 'home'; });
             var away = this.nextGame.competitors.find(function(c) { return c.homeAway === 'away'; });
             if (home && away && home.score !== undefined && away.score !== undefined) {
-                scoreHtml = `<span class="game-score">${home.team.abbreviation} ${home.score} - ${away.score} ${away.team.abbreviation}</span>`;
+                scoreHtml = `<span class="game-score">${home.team.abbreviation} ${home.score.displayValue} - ${away.score.displayValue} ${away.team.abbreviation}</span>`;
             }
         }
 
